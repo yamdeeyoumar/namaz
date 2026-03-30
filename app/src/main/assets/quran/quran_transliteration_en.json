@@ -1,0 +1,69 @@
+{
+  "surahs": [
+    {
+      "surahNumber": 1,
+      "surahNameArabic": "الفاتحة",
+      "surahNameEnglish": "Al-Fatihah",
+      "totalAyahs": 7,
+      "ayahs": [
+        {"surahNumber": 1, "ayahNumber": 1, "text": "Bismillahir rahmanir rahim"},
+        {"surahNumber": 1, "ayahNumber": 2, "text": "Alhamdu lillahi rabbil alamin"},
+        {"surahNumber": 1, "ayahNumber": 3, "text": "Ar rahmanir rahim"},
+        {"surahNumber": 1, "ayahNumber": 4, "text": "Maliki yawmid din"},
+        {"surahNumber": 1, "ayahNumber": 5, "text": "Iyyaka na'budu wa iyyaka nasta'in"},
+        {"surahNumber": 1, "ayahNumber": 6, "text": "Ihdinas siratal mustaqim"},
+        {"surahNumber": 1, "ayahNumber": 7, "text": "Siratal ladhina an'amta alayhim"}
+      ]
+    },
+    {
+      "surahNumber": 108,
+      "surahNameArabic": "الكوثر",
+      "surahNameEnglish": "Al-Kawthar",
+      "totalAyahs": 3,
+      "ayahs": [
+        {"surahNumber": 108, "ayahNumber": 1, "text": "Inna a'taynaka al-kawthar"},
+        {"surahNumber": 108, "ayahNumber": 2, "text": "Fasalli lirabbika wanhar"},
+        {"surahNumber": 108, "ayahNumber": 3, "text": "Inna shani'aka huwal abtar"}
+      ]
+    },
+    {
+      "surahNumber": 112,
+      "surahNameArabic": "الإخلاص",
+      "surahNameEnglish": "Al-Ikhlas",
+      "totalAyahs": 4,
+      "ayahs": [
+        {"surahNumber": 112, "ayahNumber": 1, "text": "Qul huwa Allahu ahad"},
+        {"surahNumber": 112, "ayahNumber": 2, "text": "Allahu الصamad"},
+        {"surahNumber": 112, "ayahNumber": 3, "text": "Lam yalid wa lam yulad"},
+        {"surahNumber": 112, "ayahNumber": 4, "text": "Wa lam yakun lahu kufuwan ahad"}
+      ]
+    },
+    {
+      "surahNumber": 113,
+      "surahNameArabic": "الفلق",
+      "surahNameEnglish": "Al-Falaq",
+      "totalAyahs": 5,
+      "ayahs": [
+        {"surahNumber": 113, "ayahNumber": 1, "text": "Qul a'udhu birabbil falaq"},
+        {"surahNumber": 113, "ayahNumber": 2, "text": "Min sharri ma khalaq"},
+        {"surahNumber": 113, "ayahNumber": 3, "text": "Wa min sharri ghasiqin idha waqab"},
+        {"surahNumber": 113, "ayahNumber": 4, "text": "Wa min sharri naffathati fil uqad"},
+        {"surahNumber": 113, "ayahNumber": 5, "text": "Wa min sharri hasidin idha hasad"}
+      ]
+    },
+    {
+      "surahNumber": 114,
+      "surahNameArabic": "الناس",
+      "surahNameEnglish": "An-Nas",
+      "totalAyahs": 6,
+      "ayahs": [
+        {"surahNumber": 114, "ayahNumber": 1, "text": "Qul a'udhu birabbin nas"},
+        {"surahNumber": 114, "ayahNumber": 2, "text": "Malikin nas"},
+        {"surahNumber": 114, "ayahNumber": 3, "text": "Ilahin nas"},
+        {"surahNumber": 114, "ayahNumber": 4, "text": "Min sharril waswasil khannas"},
+        {"surahNumber": 114, "ayahNumber": 5, "text": "Alladhi yuwaswisu fi sudurin nas"},
+        {"surahNumber": 114, "ayahNumber": 6, "text": "Minal jinnati wan nas"}
+      ]
+    }
+  ]
+}

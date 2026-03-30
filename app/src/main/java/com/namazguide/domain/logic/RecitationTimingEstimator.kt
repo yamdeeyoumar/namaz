@@ -1,0 +1,17 @@
+package com.namazguide.domain.logic
+
+class RecitationTimingEstimator(
+    private val secondsPerWord: Double = 30.0 / 27.0
+) {
+    fun wordCount(text: String): Int = text.trim().split(Regex("\\s+")).count { it.isNotBlank() }
+    fun charCount(text: String): Int = text.filterNot { it.isWhitespace() }.length
+
+    fun estimateSeconds(text: String): Int {
+        val words = wordCount(text)
+        return if (words > 0) {
+            (words * secondsPerWord).toInt().coerceAtLeast(1)
+        } else {
+            (charCount(text) * 0.25).toInt().coerceAtLeast(1)
+        }
+    }
+}
