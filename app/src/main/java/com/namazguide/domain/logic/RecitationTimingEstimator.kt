@@ -1,6 +1,7 @@
 package com.namazguide.domain.logic
 
 import com.namazguide.data.model.domain.QuranAyahContent
+import kotlin.math.ceil
 
 class RecitationTimingEstimator(
     private val secondsPerWord: Double = 30.0 / 27.0
@@ -11,9 +12,9 @@ class RecitationTimingEstimator(
     fun estimateSeconds(text: String): Int {
         val words = wordCount(text)
         return if (words > 0) {
-            (words * secondsPerWord).toInt().coerceAtLeast(1)
+            ceil(words * secondsPerWord).toInt().coerceAtLeast(1)
         } else {
-            (charCount(text) * 0.25).toInt().coerceAtLeast(1)
+            ceil(charCount(text) * 0.25).toInt().coerceAtLeast(1)
         }
     }
 
