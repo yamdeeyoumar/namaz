@@ -10,10 +10,19 @@ class PrayerDurationAllocator(
     private val timingConfig: PrayerTimingConfig = PrayerTimingConfig()
 ) {
     fun allocate(totalDurationSeconds: Int, rakahCount: Int): DurationAllocation {
-        val fixedPerRakah = timingConfig.takbirTime + timingConfig.rukuTime + timingConfig.qawmahTime +
-            timingConfig.sujoodTime + timingConfig.secondSujoodTime + timingConfig.sittingTime
+        val fixedPerRakah =
+            (timingConfig.takbirTime * 4) +
+                timingConfig.rukuTime +
+                timingConfig.qawmahTime +
+                timingConfig.sujoodTime +
+                timingConfig.secondSujoodTime
 
-        val fixedTotal = fixedPerRakah * rakahCount
+        val tashahhudTotal = when {
+            rakahCount <= 1 -> timingConfig.tashahhudWithDuroodTime
+            else -> timingConfig.tashahhudWithDuroodTime + timingConfig.tashahhudTime
+        }
+
+        val fixedTotal = (fixedPerRakah * rakahCount) + tashahhudTotal
         val recitationBudget = (totalDurationSeconds - fixedTotal).coerceAtLeast(rakahCount * 20)
         val perRakah = (recitationBudget / rakahCount).coerceAtLeast(10)
 

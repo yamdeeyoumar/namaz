@@ -12,7 +12,10 @@ import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.namazguide.ui.components.ProgressCard
@@ -32,12 +35,20 @@ fun PrayerGuidanceScreen(
     val currentRakah = state.currentRakahIndex + 1
     val step = state.currentStep
     val toneGenerator = remember { ToneGenerator(AudioManager.STREAM_NOTIFICATION, 80) }
+    var hasPlayedInitialStepTone by remember { mutableStateOf(false) }
+
+    LaunchedEffect(state.currentRakahIndex, state.currentStepIndex) {
+        if (hasPlayedInitialStepTone) {
+            toneGenerator.startTone(ToneGenerator.TONE_PROP_BEEP, 150)
+        } else {
+            hasPlayedInitialStepTone = true
+        }
+    }
 
     LaunchedEffect(state.currentRakahIndex, state.currentStepIndex, state.autoAdvance, state.playbackSpeed) {
         if (!state.autoAdvance || state.isComplete) return@LaunchedEffect
         val adjustedMs = ((step.estimatedSeconds.toFloat() / state.playbackSpeed) * 1000).toLong().coerceAtLeast(1200L)
         delay(adjustedMs)
-        toneGenerator.startTone(ToneGenerator.TONE_PROP_BEEP, 150)
         onNext()
     }
 

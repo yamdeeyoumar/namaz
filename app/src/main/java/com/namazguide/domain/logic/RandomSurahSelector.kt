@@ -25,11 +25,17 @@ class RandomSurahSelector(
         val source = if (nonRepeating.isNotEmpty()) nonRepeating else candidates
 
         val allGroups = source.flatMap { surah -> buildGroups(surah) }
-        val tolerance = (targetSeconds * 0.35f).toInt().coerceAtLeast(8)
-        val nearTarget = allGroups.filter { abs(it.estimatedSeconds - targetSeconds) <= tolerance }
+        val tolerance = (targetSeconds * 0.25f).toInt().coerceAtLeast(8)
+        val minimumPreferredSeconds = (targetSeconds * 0.75f).toInt().coerceAtLeast(10)
+        val nearTarget = allGroups.filter {
+            abs(it.estimatedSeconds - targetSeconds) <= tolerance &&
+                it.estimatedSeconds >= minimumPreferredSeconds
+        }
+        val longerFallback = allGroups.filter { it.estimatedSeconds >= minimumPreferredSeconds }
 
         return when {
             nearTarget.isNotEmpty() -> nearTarget.random(random)
+            longerFallback.isNotEmpty() -> longerFallback.minBy { abs(it.estimatedSeconds - targetSeconds) }
             allGroups.isNotEmpty() -> allGroups.minBy { abs(it.estimatedSeconds - targetSeconds) }
             else -> SelectedAyahGroup(surahs.first(), surahs.first().ayahs.take(1), estimator.estimateAyahsSeconds(surahs.first().ayahs.take(1)))
         }
