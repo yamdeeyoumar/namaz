@@ -4,7 +4,7 @@ Namaz Guide is a Kotlin + Jetpack Compose Android prototype that plans prayer re
 
 ## Features
 - Landing, setup, prayer guidance, and completion screens.
-- Offline Quran data from local JSON assets.
+- Offline Quran data from local JSON assets (all 114 surahs included).
 - Repository + clean domain logic for recitation timing and random surah selection.
 - Duration-based planner aiming to match the selected prayer length.
 
@@ -21,3 +21,6 @@ Assets path: `app/src/main/assets/quran/`
 
 ## Run
 Open the project in Android Studio (Hedgehog+), sync Gradle, and run on an emulator/device.
+
+
+Note: This prototype currently contains full surah coverage with sample placeholder ayah bodies for many surahs; it can be swapped with full Tanzil ayah content files later without code changes.
