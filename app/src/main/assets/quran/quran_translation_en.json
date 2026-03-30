@@ -1,0 +1,69 @@
+{
+  "surahs": [
+    {
+      "surahNumber": 1,
+      "surahNameArabic": "الفاتحة",
+      "surahNameEnglish": "Al-Fatihah",
+      "totalAyahs": 7,
+      "ayahs": [
+        {"surahNumber": 1, "ayahNumber": 1, "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful."},
+        {"surahNumber": 1, "ayahNumber": 2, "text": "All praise is due to Allah, Lord of the worlds."},
+        {"surahNumber": 1, "ayahNumber": 3, "text": "The Entirely Merciful, the Especially Merciful."},
+        {"surahNumber": 1, "ayahNumber": 4, "text": "Sovereign of the Day of Recompense."},
+        {"surahNumber": 1, "ayahNumber": 5, "text": "It is You we worship and You we ask for help."},
+        {"surahNumber": 1, "ayahNumber": 6, "text": "Guide us to the straight path."},
+        {"surahNumber": 1, "ayahNumber": 7, "text": "The path of those upon whom You have bestowed favor."}
+      ]
+    },
+    {
+      "surahNumber": 108,
+      "surahNameArabic": "الكوثر",
+      "surahNameEnglish": "Al-Kawthar",
+      "totalAyahs": 3,
+      "ayahs": [
+        {"surahNumber": 108, "ayahNumber": 1, "text": "Indeed, We have granted you al-Kawthar."},
+        {"surahNumber": 108, "ayahNumber": 2, "text": "So pray to your Lord and sacrifice."},
+        {"surahNumber": 108, "ayahNumber": 3, "text": "Indeed, your enemy is the one cut off."}
+      ]
+    },
+    {
+      "surahNumber": 112,
+      "surahNameArabic": "الإخلاص",
+      "surahNameEnglish": "Al-Ikhlas",
+      "totalAyahs": 4,
+      "ayahs": [
+        {"surahNumber": 112, "ayahNumber": 1, "text": "Say, He is Allah, One."},
+        {"surahNumber": 112, "ayahNumber": 2, "text": "Allah, the Eternal Refuge."},
+        {"surahNumber": 112, "ayahNumber": 3, "text": "He neither begets nor is born."},
+        {"surahNumber": 112, "ayahNumber": 4, "text": "Nor is there to Him any equivalent."}
+      ]
+    },
+    {
+      "surahNumber": 113,
+      "surahNameArabic": "الفلق",
+      "surahNameEnglish": "Al-Falaq",
+      "totalAyahs": 5,
+      "ayahs": [
+        {"surahNumber": 113, "ayahNumber": 1, "text": "Say, I seek refuge in the Lord of daybreak."},
+        {"surahNumber": 113, "ayahNumber": 2, "text": "From the evil of that which He created."},
+        {"surahNumber": 113, "ayahNumber": 3, "text": "And from the evil of darkness when it settles."},
+        {"surahNumber": 113, "ayahNumber": 4, "text": "And from the evil of the blowers in knots."},
+        {"surahNumber": 113, "ayahNumber": 5, "text": "And from the evil of an envier when he envies."}
+      ]
+    },
+    {
+      "surahNumber": 114,
+      "surahNameArabic": "الناس",
+      "surahNameEnglish": "An-Nas",
+      "totalAyahs": 6,
+      "ayahs": [
+        {"surahNumber": 114, "ayahNumber": 1, "text": "Say, I seek refuge in the Lord of mankind."},
+        {"surahNumber": 114, "ayahNumber": 2, "text": "The Sovereign of mankind."},
+        {"surahNumber": 114, "ayahNumber": 3, "text": "The God of mankind."},
+        {"surahNumber": 114, "ayahNumber": 4, "text": "From the evil of the retreating whisperer."},
+        {"surahNumber": 114, "ayahNumber": 5, "text": "Who whispers in the breasts of mankind."},
+        {"surahNumber": 114, "ayahNumber": 6, "text": "From among jinn and mankind."}
+      ]
+    }
+  ]
+}
