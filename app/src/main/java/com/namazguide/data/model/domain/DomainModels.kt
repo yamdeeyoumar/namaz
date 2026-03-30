@@ -18,13 +18,14 @@ data class QuranSurahContent(
 
 data class PrayerConfig(
     val rakahCount: Int,
-    val durationMinutes: Int
+    val durationMinutes: Int,
+    val speedMultiplier: Float = 1.0f
 )
 
 enum class PrayerStep {
     TAKBIR,
     FATIHAH,
-    ADDITIONAL_SURAH,
+    ADDITIONAL_AYAHS,
     RUKU,
     QAWMAH,
     SUJOOD,
@@ -48,6 +49,7 @@ data class RakahProgress(
 data class RakahPlan(
     val rakahNumber: Int,
     val selectedSurah: QuranSurahContent,
+    val selectedAyahRange: IntRange,
     val steps: List<PrayerStepContent>
 )
 

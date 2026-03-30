@@ -8,9 +8,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -25,6 +27,7 @@ fun SetupScreen(onBegin: (PrayerConfig) -> Unit) {
     var duration by remember { mutableIntStateOf(5) }
     var customRakah by remember { mutableIntStateOf(0) }
     var customDuration by remember { mutableIntStateOf(0) }
+    var speedMultiplier by remember { mutableFloatStateOf(1.0f) }
 
     Column(
         modifier = Modifier
@@ -64,7 +67,26 @@ fun SetupScreen(onBegin: (PrayerConfig) -> Unit) {
             label = { Text("Custom duration (minutes)") }
         )
 
-        Button(onClick = { onBegin(PrayerConfig(rakahCount = rakah, durationMinutes = duration)) }, modifier = Modifier.fillMaxWidth()) {
+        Text("Namaz Speed: ${"%.2f".format(speedMultiplier)}x")
+        Slider(
+            value = speedMultiplier,
+            onValueChange = { speedMultiplier = it },
+            valueRange = 0.7f..1.4f,
+            steps = 6
+        )
+
+        Button(
+            onClick = {
+                onBegin(
+                    PrayerConfig(
+                        rakahCount = rakah,
+                        durationMinutes = duration,
+                        speedMultiplier = speedMultiplier
+                    )
+                )
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) {
             Text("Begin Prayer")
         }
     }

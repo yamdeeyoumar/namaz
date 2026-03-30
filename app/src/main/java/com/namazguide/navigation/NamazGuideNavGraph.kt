@@ -40,6 +40,8 @@ fun NamazGuideNavGraph(viewModel: PrayerViewModel = viewModel()) {
                     state = ui,
                     onNext = { viewModel.nextStep() },
                     onToggleTransliteration = { viewModel.toggleTransliteration() },
+                    onToggleAutoAdvance = { viewModel.toggleAutoAdvance() },
+                    onSpeedChange = { viewModel.setPlaybackSpeed(it) },
                     onComplete = { navController.navigate("complete") }
                 )
             }

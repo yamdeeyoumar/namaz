@@ -1,5 +1,7 @@
 package com.namazguide.domain.logic
 
+import com.namazguide.data.model.domain.QuranAyahContent
+
 class RecitationTimingEstimator(
     private val secondsPerWord: Double = 30.0 / 27.0
 ) {
@@ -13,5 +15,9 @@ class RecitationTimingEstimator(
         } else {
             (charCount(text) * 0.25).toInt().coerceAtLeast(1)
         }
+    }
+
+    fun estimateAyahsSeconds(ayahs: List<QuranAyahContent>): Int {
+        return ayahs.sumOf { estimateSeconds(it.arabicText) }
     }
 }

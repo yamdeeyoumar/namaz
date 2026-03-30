@@ -10,7 +10,9 @@ sealed class PrayerUiState {
         val plan: PrayerPlan,
         val currentRakahIndex: Int = 0,
         val currentStepIndex: Int = 0,
-        val showTransliteration: Boolean = true
+        val showTransliteration: Boolean = true,
+        val autoAdvance: Boolean = true,
+        val playbackSpeed: Float = plan.config.speedMultiplier
     ) : PrayerUiState() {
         val currentStep: PrayerStepContent
             get() = plan.rakahPlans[currentRakahIndex].steps[currentStepIndex]

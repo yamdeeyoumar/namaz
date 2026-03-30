@@ -36,7 +36,7 @@ class PrayerViewModel(app: Application) : AndroidViewModel(app) {
                 is RepositoryResult.Error -> _uiState.value = PrayerUiState.Error(surahs.message)
                 is RepositoryResult.Success -> {
                     val plan = planner.plan(config, surahs.data)
-                    _uiState.value = PrayerUiState.Success(plan = plan)
+                    _uiState.value = PrayerUiState.Success(plan = plan, playbackSpeed = config.speedMultiplier)
                 }
             }
         }
@@ -60,6 +60,16 @@ class PrayerViewModel(app: Application) : AndroidViewModel(app) {
     fun toggleTransliteration() {
         val current = _uiState.value as? PrayerUiState.Success ?: return
         _uiState.value = current.copy(showTransliteration = !current.showTransliteration)
+    }
+
+    fun toggleAutoAdvance() {
+        val current = _uiState.value as? PrayerUiState.Success ?: return
+        _uiState.value = current.copy(autoAdvance = !current.autoAdvance)
+    }
+
+    fun setPlaybackSpeed(value: Float) {
+        val current = _uiState.value as? PrayerUiState.Success ?: return
+        _uiState.value = current.copy(playbackSpeed = value)
     }
 
     fun reset() {

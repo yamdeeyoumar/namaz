@@ -17,22 +17,31 @@ class PrayerRecitationPlanner(
         val totalTargetSeconds = config.durationMinutes * 60
         val allocation = allocator.allocate(totalTargetSeconds, config.rakahCount)
         val fatihah = allSurahs.first { it.surahNumber == 1 }
-        val fatihahSeconds = estimator.estimateSeconds(fatihah.ayahs.joinToString(" ") { it.arabicText })
+        val fatihahSeconds = estimator.estimateAyahsSeconds(fatihah.ayahs)
 
-        val remaining = (allocation.recitationTotalSeconds - fatihahSeconds * config.rakahCount).coerceAtLeast(config.rakahCount * 5)
-        val perRakahAdditionalTarget = (remaining / config.rakahCount).coerceAtLeast(5)
+        val remaining = (allocation.recitationTotalSeconds - fatihahSeconds * config.rakahCount)
+            .coerceAtLeast(config.rakahCount * 6)
+        val perRakahAdditionalTarget = (remaining / config.rakahCount).coerceAtLeast(6)
 
         val used = mutableSetOf<Int>()
         val rakahPlans = (1..config.rakahCount).map { rakahNumber ->
-            val surah = selector.selectSurah(allSurahs, perRakahAdditionalTarget, used)
-            used += surah.surahNumber
+            val selection = selector.selectAyahGroup(allSurahs, perRakahAdditionalTarget, used)
+            used += selection.surah.surahNumber
 
-            val additionalArabic = surah.ayahs.joinToString(" ") { it.arabicText }
-            val additionalTranslation = surah.ayahs.joinToString(" ") { it.translationText }
-            val additionalTranslit = surah.ayahs.joinToString(" ") { it.transliterationText.orEmpty() }
+            val additionalArabic = selection.ayahs.joinToString(" ") { it.arabicText }
+            val additionalTranslation = selection.ayahs.joinToString(" ") { it.translationText }
+            val additionalTranslit = selection.ayahs.joinToString(" ") { it.transliterationText.orEmpty() }
+            val range = selection.ayahs.first().ayahNumber..selection.ayahs.last().ayahNumber
 
             val steps = listOf(
-                PrayerStepContent(PrayerStep.TAKBIR, "Takbir", estimatedSeconds = timingConfig.takbirTime),
+                PrayerStepContent(
+                    PrayerStep.TAKBIR,
+                    "Takbir",
+                    arabicText = "اللّٰهُ أَكْبَرُ",
+                    translationText = "Allah is the Greatest",
+                    transliterationText = "Allahu Akbar",
+                    estimatedSeconds = timingConfig.takbirTime
+                ),
                 PrayerStepContent(
                     step = PrayerStep.FATIHAH,
                     title = "Al-Fatihah",
@@ -42,19 +51,52 @@ class PrayerRecitationPlanner(
                     estimatedSeconds = fatihahSeconds
                 ),
                 PrayerStepContent(
-                    step = PrayerStep.ADDITIONAL_SURAH,
-                    title = surah.surahNameEnglish,
+                    step = PrayerStep.ADDITIONAL_AYAHS,
+                    title = "${selection.surah.surahNameEnglish} (${range.first}-${range.last})",
                     arabicText = additionalArabic,
                     translationText = additionalTranslation,
                     transliterationText = additionalTranslit,
-                    estimatedSeconds = estimator.estimateSeconds(additionalArabic)
+                    estimatedSeconds = selection.estimatedSeconds
                 ),
-                PrayerStepContent(PrayerStep.RUKU, "Ruku", estimatedSeconds = timingConfig.rukuTime),
-                PrayerStepContent(PrayerStep.QAWMAH, "Qawmah", estimatedSeconds = timingConfig.qawmahTime),
-                PrayerStepContent(PrayerStep.SUJOOD, "Sujood", estimatedSeconds = timingConfig.sujoodTime),
-                PrayerStepContent(PrayerStep.SECOND_SUJOOD, "Second Sujood", estimatedSeconds = timingConfig.secondSujoodTime)
+                PrayerStepContent(
+                    PrayerStep.RUKU,
+                    "Ruku",
+                    arabicText = "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+                    translationText = "Glory be to my Lord, the Magnificent",
+                    transliterationText = "Subhana Rabbiyal Adheem",
+                    estimatedSeconds = timingConfig.rukuTime
+                ),
+                PrayerStepContent(
+                    PrayerStep.QAWMAH,
+                    "Qawmah",
+                    arabicText = "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ رَبَّنَا وَلَكَ الْحَمْدُ",
+                    translationText = "Allah hears those who praise Him. Our Lord, all praise is for You",
+                    transliterationText = "Sami Allahu liman hamidah, Rabbana lakal hamd",
+                    estimatedSeconds = timingConfig.qawmahTime
+                ),
+                PrayerStepContent(
+                    PrayerStep.SUJOOD,
+                    "Sujood",
+                    arabicText = "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+                    translationText = "Glory be to my Lord, the Most High",
+                    transliterationText = "Subhana Rabbiyal A'la",
+                    estimatedSeconds = timingConfig.sujoodTime
+                ),
+                PrayerStepContent(
+                    PrayerStep.SECOND_SUJOOD,
+                    "Second Sujood",
+                    arabicText = "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+                    translationText = "Glory be to my Lord, the Most High",
+                    transliterationText = "Subhana Rabbiyal A'la",
+                    estimatedSeconds = timingConfig.secondSujoodTime
+                )
             )
-            RakahPlan(rakahNumber, surah, steps)
+            RakahPlan(
+                rakahNumber = rakahNumber,
+                selectedSurah = selection.surah,
+                selectedAyahRange = range,
+                steps = steps
+            )
         }
 
         val estimatedTotal = rakahPlans.sumOf { rp -> rp.steps.sumOf { it.estimatedSeconds } } +
