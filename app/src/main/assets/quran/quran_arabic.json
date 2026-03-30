@@ -1,0 +1,1586 @@
+{
+  "surahs": [
+    {
+      "surahNumber": 1,
+      "surahNameArabic": "الفاتحة",
+      "surahNameEnglish": "Al-Fatihah",
+      "totalAyahs": 7,
+      "ayahs": [
+        {
+          "surahNumber": 1,
+          "ayahNumber": 1,
+          "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
+        },
+        {
+          "surahNumber": 1,
+          "ayahNumber": 2,
+          "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"
+        },
+        {
+          "surahNumber": 1,
+          "ayahNumber": 3,
+          "text": "الرَّحْمَٰنِ الرَّحِيمِ"
+        },
+        {
+          "surahNumber": 1,
+          "ayahNumber": 4,
+          "text": "مَالِكِ يَوْمِ الدِّينِ"
+        },
+        {
+          "surahNumber": 1,
+          "ayahNumber": 5,
+          "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+        },
+        {
+          "surahNumber": 1,
+          "ayahNumber": 6,
+          "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ"
+        },
+        {
+          "surahNumber": 1,
+          "ayahNumber": 7,
+          "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ"
+        }
+      ]
+    },
+    {
+      "surahNumber": 2,
+      "surahNameArabic": "سورة 2",
+      "surahNameEnglish": "Al-Baqarah",
+      "totalAyahs": 286,
+      "ayahs": [
+        {
+          "surahNumber": 2,
+          "ayahNumber": 1,
+          "text": "نص سورة 2"
+        }
+      ]
+    },
+    {
+      "surahNumber": 3,
+      "surahNameArabic": "سورة 3",
+      "surahNameEnglish": "Ali Imran",
+      "totalAyahs": 200,
+      "ayahs": [
+        {
+          "surahNumber": 3,
+          "ayahNumber": 1,
+          "text": "نص سورة 3"
+        }
+      ]
+    },
+    {
+      "surahNumber": 4,
+      "surahNameArabic": "سورة 4",
+      "surahNameEnglish": "An-Nisa",
+      "totalAyahs": 176,
+      "ayahs": [
+        {
+          "surahNumber": 4,
+          "ayahNumber": 1,
+          "text": "نص سورة 4"
+        }
+      ]
+    },
+    {
+      "surahNumber": 5,
+      "surahNameArabic": "سورة 5",
+      "surahNameEnglish": "Al-Ma'idah",
+      "totalAyahs": 120,
+      "ayahs": [
+        {
+          "surahNumber": 5,
+          "ayahNumber": 1,
+          "text": "نص سورة 5"
+        }
+      ]
+    },
+    {
+      "surahNumber": 6,
+      "surahNameArabic": "سورة 6",
+      "surahNameEnglish": "Al-An'am",
+      "totalAyahs": 165,
+      "ayahs": [
+        {
+          "surahNumber": 6,
+          "ayahNumber": 1,
+          "text": "نص سورة 6"
+        }
+      ]
+    },
+    {
+      "surahNumber": 7,
+      "surahNameArabic": "سورة 7",
+      "surahNameEnglish": "Al-A'raf",
+      "totalAyahs": 206,
+      "ayahs": [
+        {
+          "surahNumber": 7,
+          "ayahNumber": 1,
+          "text": "نص سورة 7"
+        }
+      ]
+    },
+    {
+      "surahNumber": 8,
+      "surahNameArabic": "سورة 8",
+      "surahNameEnglish": "Al-Anfal",
+      "totalAyahs": 75,
+      "ayahs": [
+        {
+          "surahNumber": 8,
+          "ayahNumber": 1,
+          "text": "نص سورة 8"
+        }
+      ]
+    },
+    {
+      "surahNumber": 9,
+      "surahNameArabic": "سورة 9",
+      "surahNameEnglish": "At-Tawbah",
+      "totalAyahs": 129,
+      "ayahs": [
+        {
+          "surahNumber": 9,
+          "ayahNumber": 1,
+          "text": "نص سورة 9"
+        }
+      ]
+    },
+    {
+      "surahNumber": 10,
+      "surahNameArabic": "سورة 10",
+      "surahNameEnglish": "Yunus",
+      "totalAyahs": 109,
+      "ayahs": [
+        {
+          "surahNumber": 10,
+          "ayahNumber": 1,
+          "text": "نص سورة 10"
+        }
+      ]
+    },
+    {
+      "surahNumber": 11,
+      "surahNameArabic": "سورة 11",
+      "surahNameEnglish": "Hud",
+      "totalAyahs": 123,
+      "ayahs": [
+        {
+          "surahNumber": 11,
+          "ayahNumber": 1,
+          "text": "نص سورة 11"
+        }
+      ]
+    },
+    {
+      "surahNumber": 12,
+      "surahNameArabic": "سورة 12",
+      "surahNameEnglish": "Yusuf",
+      "totalAyahs": 111,
+      "ayahs": [
+        {
+          "surahNumber": 12,
+          "ayahNumber": 1,
+          "text": "نص سورة 12"
+        }
+      ]
+    },
+    {
+      "surahNumber": 13,
+      "surahNameArabic": "سورة 13",
+      "surahNameEnglish": "Ar-Ra'd",
+      "totalAyahs": 43,
+      "ayahs": [
+        {
+          "surahNumber": 13,
+          "ayahNumber": 1,
+          "text": "نص سورة 13"
+        }
+      ]
+    },
+    {
+      "surahNumber": 14,
+      "surahNameArabic": "سورة 14",
+      "surahNameEnglish": "Ibrahim",
+      "totalAyahs": 52,
+      "ayahs": [
+        {
+          "surahNumber": 14,
+          "ayahNumber": 1,
+          "text": "نص سورة 14"
+        }
+      ]
+    },
+    {
+      "surahNumber": 15,
+      "surahNameArabic": "سورة 15",
+      "surahNameEnglish": "Al-Hijr",
+      "totalAyahs": 99,
+      "ayahs": [
+        {
+          "surahNumber": 15,
+          "ayahNumber": 1,
+          "text": "نص سورة 15"
+        }
+      ]
+    },
+    {
+      "surahNumber": 16,
+      "surahNameArabic": "سورة 16",
+      "surahNameEnglish": "An-Nahl",
+      "totalAyahs": 128,
+      "ayahs": [
+        {
+          "surahNumber": 16,
+          "ayahNumber": 1,
+          "text": "نص سورة 16"
+        }
+      ]
+    },
+    {
+      "surahNumber": 17,
+      "surahNameArabic": "سورة 17",
+      "surahNameEnglish": "Al-Isra",
+      "totalAyahs": 111,
+      "ayahs": [
+        {
+          "surahNumber": 17,
+          "ayahNumber": 1,
+          "text": "نص سورة 17"
+        }
+      ]
+    },
+    {
+      "surahNumber": 18,
+      "surahNameArabic": "سورة 18",
+      "surahNameEnglish": "Al-Kahf",
+      "totalAyahs": 110,
+      "ayahs": [
+        {
+          "surahNumber": 18,
+          "ayahNumber": 1,
+          "text": "نص سورة 18"
+        }
+      ]
+    },
+    {
+      "surahNumber": 19,
+      "surahNameArabic": "سورة 19",
+      "surahNameEnglish": "Maryam",
+      "totalAyahs": 98,
+      "ayahs": [
+        {
+          "surahNumber": 19,
+          "ayahNumber": 1,
+          "text": "نص سورة 19"
+        }
+      ]
+    },
+    {
+      "surahNumber": 20,
+      "surahNameArabic": "سورة 20",
+      "surahNameEnglish": "Ta-Ha",
+      "totalAyahs": 135,
+      "ayahs": [
+        {
+          "surahNumber": 20,
+          "ayahNumber": 1,
+          "text": "نص سورة 20"
+        }
+      ]
+    },
+    {
+      "surahNumber": 21,
+      "surahNameArabic": "سورة 21",
+      "surahNameEnglish": "Al-Anbiya",
+      "totalAyahs": 112,
+      "ayahs": [
+        {
+          "surahNumber": 21,
+          "ayahNumber": 1,
+          "text": "نص سورة 21"
+        }
+      ]
+    },
+    {
+      "surahNumber": 22,
+      "surahNameArabic": "سورة 22",
+      "surahNameEnglish": "Al-Hajj",
+      "totalAyahs": 78,
+      "ayahs": [
+        {
+          "surahNumber": 22,
+          "ayahNumber": 1,
+          "text": "نص سورة 22"
+        }
+      ]
+    },
+    {
+      "surahNumber": 23,
+      "surahNameArabic": "سورة 23",
+      "surahNameEnglish": "Al-Mu'minun",
+      "totalAyahs": 118,
+      "ayahs": [
+        {
+          "surahNumber": 23,
+          "ayahNumber": 1,
+          "text": "نص سورة 23"
+        }
+      ]
+    },
+    {
+      "surahNumber": 24,
+      "surahNameArabic": "سورة 24",
+      "surahNameEnglish": "An-Nur",
+      "totalAyahs": 64,
+      "ayahs": [
+        {
+          "surahNumber": 24,
+          "ayahNumber": 1,
+          "text": "نص سورة 24"
+        }
+      ]
+    },
+    {
+      "surahNumber": 25,
+      "surahNameArabic": "سورة 25",
+      "surahNameEnglish": "Al-Furqan",
+      "totalAyahs": 77,
+      "ayahs": [
+        {
+          "surahNumber": 25,
+          "ayahNumber": 1,
+          "text": "نص سورة 25"
+        }
+      ]
+    },
+    {
+      "surahNumber": 26,
+      "surahNameArabic": "سورة 26",
+      "surahNameEnglish": "Ash-Shu'ara",
+      "totalAyahs": 227,
+      "ayahs": [
+        {
+          "surahNumber": 26,
+          "ayahNumber": 1,
+          "text": "نص سورة 26"
+        }
+      ]
+    },
+    {
+      "surahNumber": 27,
+      "surahNameArabic": "سورة 27",
+      "surahNameEnglish": "An-Naml",
+      "totalAyahs": 93,
+      "ayahs": [
+        {
+          "surahNumber": 27,
+          "ayahNumber": 1,
+          "text": "نص سورة 27"
+        }
+      ]
+    },
+    {
+      "surahNumber": 28,
+      "surahNameArabic": "سورة 28",
+      "surahNameEnglish": "Al-Qasas",
+      "totalAyahs": 88,
+      "ayahs": [
+        {
+          "surahNumber": 28,
+          "ayahNumber": 1,
+          "text": "نص سورة 28"
+        }
+      ]
+    },
+    {
+      "surahNumber": 29,
+      "surahNameArabic": "سورة 29",
+      "surahNameEnglish": "Al-Ankabut",
+      "totalAyahs": 69,
+      "ayahs": [
+        {
+          "surahNumber": 29,
+          "ayahNumber": 1,
+          "text": "نص سورة 29"
+        }
+      ]
+    },
+    {
+      "surahNumber": 30,
+      "surahNameArabic": "سورة 30",
+      "surahNameEnglish": "Ar-Rum",
+      "totalAyahs": 60,
+      "ayahs": [
+        {
+          "surahNumber": 30,
+          "ayahNumber": 1,
+          "text": "نص سورة 30"
+        }
+      ]
+    },
+    {
+      "surahNumber": 31,
+      "surahNameArabic": "سورة 31",
+      "surahNameEnglish": "Luqman",
+      "totalAyahs": 34,
+      "ayahs": [
+        {
+          "surahNumber": 31,
+          "ayahNumber": 1,
+          "text": "نص سورة 31"
+        }
+      ]
+    },
+    {
+      "surahNumber": 32,
+      "surahNameArabic": "سورة 32",
+      "surahNameEnglish": "As-Sajdah",
+      "totalAyahs": 30,
+      "ayahs": [
+        {
+          "surahNumber": 32,
+          "ayahNumber": 1,
+          "text": "نص سورة 32"
+        }
+      ]
+    },
+    {
+      "surahNumber": 33,
+      "surahNameArabic": "سورة 33",
+      "surahNameEnglish": "Al-Ahzab",
+      "totalAyahs": 73,
+      "ayahs": [
+        {
+          "surahNumber": 33,
+          "ayahNumber": 1,
+          "text": "نص سورة 33"
+        }
+      ]
+    },
+    {
+      "surahNumber": 34,
+      "surahNameArabic": "سورة 34",
+      "surahNameEnglish": "Saba",
+      "totalAyahs": 54,
+      "ayahs": [
+        {
+          "surahNumber": 34,
+          "ayahNumber": 1,
+          "text": "نص سورة 34"
+        }
+      ]
+    },
+    {
+      "surahNumber": 35,
+      "surahNameArabic": "سورة 35",
+      "surahNameEnglish": "Fatir",
+      "totalAyahs": 45,
+      "ayahs": [
+        {
+          "surahNumber": 35,
+          "ayahNumber": 1,
+          "text": "نص سورة 35"
+        }
+      ]
+    },
+    {
+      "surahNumber": 36,
+      "surahNameArabic": "سورة 36",
+      "surahNameEnglish": "Ya-Sin",
+      "totalAyahs": 83,
+      "ayahs": [
+        {
+          "surahNumber": 36,
+          "ayahNumber": 1,
+          "text": "نص سورة 36"
+        }
+      ]
+    },
+    {
+      "surahNumber": 37,
+      "surahNameArabic": "سورة 37",
+      "surahNameEnglish": "As-Saffat",
+      "totalAyahs": 182,
+      "ayahs": [
+        {
+          "surahNumber": 37,
+          "ayahNumber": 1,
+          "text": "نص سورة 37"
+        }
+      ]
+    },
+    {
+      "surahNumber": 38,
+      "surahNameArabic": "سورة 38",
+      "surahNameEnglish": "Sad",
+      "totalAyahs": 88,
+      "ayahs": [
+        {
+          "surahNumber": 38,
+          "ayahNumber": 1,
+          "text": "نص سورة 38"
+        }
+      ]
+    },
+    {
+      "surahNumber": 39,
+      "surahNameArabic": "سورة 39",
+      "surahNameEnglish": "Az-Zumar",
+      "totalAyahs": 75,
+      "ayahs": [
+        {
+          "surahNumber": 39,
+          "ayahNumber": 1,
+          "text": "نص سورة 39"
+        }
+      ]
+    },
+    {
+      "surahNumber": 40,
+      "surahNameArabic": "سورة 40",
+      "surahNameEnglish": "Ghafir",
+      "totalAyahs": 85,
+      "ayahs": [
+        {
+          "surahNumber": 40,
+          "ayahNumber": 1,
+          "text": "نص سورة 40"
+        }
+      ]
+    },
+    {
+      "surahNumber": 41,
+      "surahNameArabic": "سورة 41",
+      "surahNameEnglish": "Fussilat",
+      "totalAyahs": 54,
+      "ayahs": [
+        {
+          "surahNumber": 41,
+          "ayahNumber": 1,
+          "text": "نص سورة 41"
+        }
+      ]
+    },
+    {
+      "surahNumber": 42,
+      "surahNameArabic": "سورة 42",
+      "surahNameEnglish": "Ash-Shura",
+      "totalAyahs": 53,
+      "ayahs": [
+        {
+          "surahNumber": 42,
+          "ayahNumber": 1,
+          "text": "نص سورة 42"
+        }
+      ]
+    },
+    {
+      "surahNumber": 43,
+      "surahNameArabic": "سورة 43",
+      "surahNameEnglish": "Az-Zukhruf",
+      "totalAyahs": 89,
+      "ayahs": [
+        {
+          "surahNumber": 43,
+          "ayahNumber": 1,
+          "text": "نص سورة 43"
+        }
+      ]
+    },
+    {
+      "surahNumber": 44,
+      "surahNameArabic": "سورة 44",
+      "surahNameEnglish": "Ad-Dukhan",
+      "totalAyahs": 59,
+      "ayahs": [
+        {
+          "surahNumber": 44,
+          "ayahNumber": 1,
+          "text": "نص سورة 44"
+        }
+      ]
+    },
+    {
+      "surahNumber": 45,
+      "surahNameArabic": "سورة 45",
+      "surahNameEnglish": "Al-Jathiyah",
+      "totalAyahs": 37,
+      "ayahs": [
+        {
+          "surahNumber": 45,
+          "ayahNumber": 1,
+          "text": "نص سورة 45"
+        }
+      ]
+    },
+    {
+      "surahNumber": 46,
+      "surahNameArabic": "سورة 46",
+      "surahNameEnglish": "Al-Ahqaf",
+      "totalAyahs": 35,
+      "ayahs": [
+        {
+          "surahNumber": 46,
+          "ayahNumber": 1,
+          "text": "نص سورة 46"
+        }
+      ]
+    },
+    {
+      "surahNumber": 47,
+      "surahNameArabic": "سورة 47",
+      "surahNameEnglish": "Muhammad",
+      "totalAyahs": 38,
+      "ayahs": [
+        {
+          "surahNumber": 47,
+          "ayahNumber": 1,
+          "text": "نص سورة 47"
+        }
+      ]
+    },
+    {
+      "surahNumber": 48,
+      "surahNameArabic": "سورة 48",
+      "surahNameEnglish": "Al-Fath",
+      "totalAyahs": 29,
+      "ayahs": [
+        {
+          "surahNumber": 48,
+          "ayahNumber": 1,
+          "text": "نص سورة 48"
+        }
+      ]
+    },
+    {
+      "surahNumber": 49,
+      "surahNameArabic": "سورة 49",
+      "surahNameEnglish": "Al-Hujurat",
+      "totalAyahs": 18,
+      "ayahs": [
+        {
+          "surahNumber": 49,
+          "ayahNumber": 1,
+          "text": "نص سورة 49"
+        }
+      ]
+    },
+    {
+      "surahNumber": 50,
+      "surahNameArabic": "سورة 50",
+      "surahNameEnglish": "Qaf",
+      "totalAyahs": 45,
+      "ayahs": [
+        {
+          "surahNumber": 50,
+          "ayahNumber": 1,
+          "text": "نص سورة 50"
+        }
+      ]
+    },
+    {
+      "surahNumber": 51,
+      "surahNameArabic": "سورة 51",
+      "surahNameEnglish": "Adh-Dhariyat",
+      "totalAyahs": 60,
+      "ayahs": [
+        {
+          "surahNumber": 51,
+          "ayahNumber": 1,
+          "text": "نص سورة 51"
+        }
+      ]
+    },
+    {
+      "surahNumber": 52,
+      "surahNameArabic": "سورة 52",
+      "surahNameEnglish": "At-Tur",
+      "totalAyahs": 49,
+      "ayahs": [
+        {
+          "surahNumber": 52,
+          "ayahNumber": 1,
+          "text": "نص سورة 52"
+        }
+      ]
+    },
+    {
+      "surahNumber": 53,
+      "surahNameArabic": "سورة 53",
+      "surahNameEnglish": "An-Najm",
+      "totalAyahs": 62,
+      "ayahs": [
+        {
+          "surahNumber": 53,
+          "ayahNumber": 1,
+          "text": "نص سورة 53"
+        }
+      ]
+    },
+    {
+      "surahNumber": 54,
+      "surahNameArabic": "سورة 54",
+      "surahNameEnglish": "Al-Qamar",
+      "totalAyahs": 55,
+      "ayahs": [
+        {
+          "surahNumber": 54,
+          "ayahNumber": 1,
+          "text": "نص سورة 54"
+        }
+      ]
+    },
+    {
+      "surahNumber": 55,
+      "surahNameArabic": "سورة 55",
+      "surahNameEnglish": "Ar-Rahman",
+      "totalAyahs": 78,
+      "ayahs": [
+        {
+          "surahNumber": 55,
+          "ayahNumber": 1,
+          "text": "نص سورة 55"
+        }
+      ]
+    },
+    {
+      "surahNumber": 56,
+      "surahNameArabic": "سورة 56",
+      "surahNameEnglish": "Al-Waqi'ah",
+      "totalAyahs": 96,
+      "ayahs": [
+        {
+          "surahNumber": 56,
+          "ayahNumber": 1,
+          "text": "نص سورة 56"
+        }
+      ]
+    },
+    {
+      "surahNumber": 57,
+      "surahNameArabic": "سورة 57",
+      "surahNameEnglish": "Al-Hadid",
+      "totalAyahs": 29,
+      "ayahs": [
+        {
+          "surahNumber": 57,
+          "ayahNumber": 1,
+          "text": "نص سورة 57"
+        }
+      ]
+    },
+    {
+      "surahNumber": 58,
+      "surahNameArabic": "سورة 58",
+      "surahNameEnglish": "Al-Mujadila",
+      "totalAyahs": 22,
+      "ayahs": [
+        {
+          "surahNumber": 58,
+          "ayahNumber": 1,
+          "text": "نص سورة 58"
+        }
+      ]
+    },
+    {
+      "surahNumber": 59,
+      "surahNameArabic": "سورة 59",
+      "surahNameEnglish": "Al-Hashr",
+      "totalAyahs": 24,
+      "ayahs": [
+        {
+          "surahNumber": 59,
+          "ayahNumber": 1,
+          "text": "نص سورة 59"
+        }
+      ]
+    },
+    {
+      "surahNumber": 60,
+      "surahNameArabic": "سورة 60",
+      "surahNameEnglish": "Al-Mumtahanah",
+      "totalAyahs": 13,
+      "ayahs": [
+        {
+          "surahNumber": 60,
+          "ayahNumber": 1,
+          "text": "نص سورة 60"
+        }
+      ]
+    },
+    {
+      "surahNumber": 61,
+      "surahNameArabic": "سورة 61",
+      "surahNameEnglish": "As-Saff",
+      "totalAyahs": 14,
+      "ayahs": [
+        {
+          "surahNumber": 61,
+          "ayahNumber": 1,
+          "text": "نص سورة 61"
+        }
+      ]
+    },
+    {
+      "surahNumber": 62,
+      "surahNameArabic": "سورة 62",
+      "surahNameEnglish": "Al-Jumu'ah",
+      "totalAyahs": 11,
+      "ayahs": [
+        {
+          "surahNumber": 62,
+          "ayahNumber": 1,
+          "text": "نص سورة 62"
+        }
+      ]
+    },
+    {
+      "surahNumber": 63,
+      "surahNameArabic": "سورة 63",
+      "surahNameEnglish": "Al-Munafiqun",
+      "totalAyahs": 11,
+      "ayahs": [
+        {
+          "surahNumber": 63,
+          "ayahNumber": 1,
+          "text": "نص سورة 63"
+        }
+      ]
+    },
+    {
+      "surahNumber": 64,
+      "surahNameArabic": "سورة 64",
+      "surahNameEnglish": "At-Taghabun",
+      "totalAyahs": 18,
+      "ayahs": [
+        {
+          "surahNumber": 64,
+          "ayahNumber": 1,
+          "text": "نص سورة 64"
+        }
+      ]
+    },
+    {
+      "surahNumber": 65,
+      "surahNameArabic": "سورة 65",
+      "surahNameEnglish": "At-Talaq",
+      "totalAyahs": 12,
+      "ayahs": [
+        {
+          "surahNumber": 65,
+          "ayahNumber": 1,
+          "text": "نص سورة 65"
+        }
+      ]
+    },
+    {
+      "surahNumber": 66,
+      "surahNameArabic": "سورة 66",
+      "surahNameEnglish": "At-Tahrim",
+      "totalAyahs": 12,
+      "ayahs": [
+        {
+          "surahNumber": 66,
+          "ayahNumber": 1,
+          "text": "نص سورة 66"
+        }
+      ]
+    },
+    {
+      "surahNumber": 67,
+      "surahNameArabic": "سورة 67",
+      "surahNameEnglish": "Al-Mulk",
+      "totalAyahs": 30,
+      "ayahs": [
+        {
+          "surahNumber": 67,
+          "ayahNumber": 1,
+          "text": "نص سورة 67"
+        }
+      ]
+    },
+    {
+      "surahNumber": 68,
+      "surahNameArabic": "سورة 68",
+      "surahNameEnglish": "Al-Qalam",
+      "totalAyahs": 52,
+      "ayahs": [
+        {
+          "surahNumber": 68,
+          "ayahNumber": 1,
+          "text": "نص سورة 68"
+        }
+      ]
+    },
+    {
+      "surahNumber": 69,
+      "surahNameArabic": "سورة 69",
+      "surahNameEnglish": "Al-Haqqah",
+      "totalAyahs": 52,
+      "ayahs": [
+        {
+          "surahNumber": 69,
+          "ayahNumber": 1,
+          "text": "نص سورة 69"
+        }
+      ]
+    },
+    {
+      "surahNumber": 70,
+      "surahNameArabic": "سورة 70",
+      "surahNameEnglish": "Al-Ma'arij",
+      "totalAyahs": 44,
+      "ayahs": [
+        {
+          "surahNumber": 70,
+          "ayahNumber": 1,
+          "text": "نص سورة 70"
+        }
+      ]
+    },
+    {
+      "surahNumber": 71,
+      "surahNameArabic": "سورة 71",
+      "surahNameEnglish": "Nuh",
+      "totalAyahs": 28,
+      "ayahs": [
+        {
+          "surahNumber": 71,
+          "ayahNumber": 1,
+          "text": "نص سورة 71"
+        }
+      ]
+    },
+    {
+      "surahNumber": 72,
+      "surahNameArabic": "سورة 72",
+      "surahNameEnglish": "Al-Jinn",
+      "totalAyahs": 28,
+      "ayahs": [
+        {
+          "surahNumber": 72,
+          "ayahNumber": 1,
+          "text": "نص سورة 72"
+        }
+      ]
+    },
+    {
+      "surahNumber": 73,
+      "surahNameArabic": "سورة 73",
+      "surahNameEnglish": "Al-Muzzammil",
+      "totalAyahs": 20,
+      "ayahs": [
+        {
+          "surahNumber": 73,
+          "ayahNumber": 1,
+          "text": "نص سورة 73"
+        }
+      ]
+    },
+    {
+      "surahNumber": 74,
+      "surahNameArabic": "سورة 74",
+      "surahNameEnglish": "Al-Muddaththir",
+      "totalAyahs": 56,
+      "ayahs": [
+        {
+          "surahNumber": 74,
+          "ayahNumber": 1,
+          "text": "نص سورة 74"
+        }
+      ]
+    },
+    {
+      "surahNumber": 75,
+      "surahNameArabic": "سورة 75",
+      "surahNameEnglish": "Al-Qiyamah",
+      "totalAyahs": 40,
+      "ayahs": [
+        {
+          "surahNumber": 75,
+          "ayahNumber": 1,
+          "text": "نص سورة 75"
+        }
+      ]
+    },
+    {
+      "surahNumber": 76,
+      "surahNameArabic": "سورة 76",
+      "surahNameEnglish": "Al-Insan",
+      "totalAyahs": 31,
+      "ayahs": [
+        {
+          "surahNumber": 76,
+          "ayahNumber": 1,
+          "text": "نص سورة 76"
+        }
+      ]
+    },
+    {
+      "surahNumber": 77,
+      "surahNameArabic": "سورة 77",
+      "surahNameEnglish": "Al-Mursalat",
+      "totalAyahs": 50,
+      "ayahs": [
+        {
+          "surahNumber": 77,
+          "ayahNumber": 1,
+          "text": "نص سورة 77"
+        }
+      ]
+    },
+    {
+      "surahNumber": 78,
+      "surahNameArabic": "سورة 78",
+      "surahNameEnglish": "An-Naba'",
+      "totalAyahs": 40,
+      "ayahs": [
+        {
+          "surahNumber": 78,
+          "ayahNumber": 1,
+          "text": "نص سورة 78"
+        }
+      ]
+    },
+    {
+      "surahNumber": 79,
+      "surahNameArabic": "سورة 79",
+      "surahNameEnglish": "An-Nazi'at",
+      "totalAyahs": 46,
+      "ayahs": [
+        {
+          "surahNumber": 79,
+          "ayahNumber": 1,
+          "text": "نص سورة 79"
+        }
+      ]
+    },
+    {
+      "surahNumber": 80,
+      "surahNameArabic": "سورة 80",
+      "surahNameEnglish": "Abasa",
+      "totalAyahs": 42,
+      "ayahs": [
+        {
+          "surahNumber": 80,
+          "ayahNumber": 1,
+          "text": "نص سورة 80"
+        }
+      ]
+    },
+    {
+      "surahNumber": 81,
+      "surahNameArabic": "سورة 81",
+      "surahNameEnglish": "At-Takwir",
+      "totalAyahs": 29,
+      "ayahs": [
+        {
+          "surahNumber": 81,
+          "ayahNumber": 1,
+          "text": "نص سورة 81"
+        }
+      ]
+    },
+    {
+      "surahNumber": 82,
+      "surahNameArabic": "سورة 82",
+      "surahNameEnglish": "Al-Infitar",
+      "totalAyahs": 19,
+      "ayahs": [
+        {
+          "surahNumber": 82,
+          "ayahNumber": 1,
+          "text": "نص سورة 82"
+        }
+      ]
+    },
+    {
+      "surahNumber": 83,
+      "surahNameArabic": "سورة 83",
+      "surahNameEnglish": "Al-Mutaffifin",
+      "totalAyahs": 36,
+      "ayahs": [
+        {
+          "surahNumber": 83,
+          "ayahNumber": 1,
+          "text": "نص سورة 83"
+        }
+      ]
+    },
+    {
+      "surahNumber": 84,
+      "surahNameArabic": "سورة 84",
+      "surahNameEnglish": "Al-Inshiqaq",
+      "totalAyahs": 25,
+      "ayahs": [
+        {
+          "surahNumber": 84,
+          "ayahNumber": 1,
+          "text": "نص سورة 84"
+        }
+      ]
+    },
+    {
+      "surahNumber": 85,
+      "surahNameArabic": "سورة 85",
+      "surahNameEnglish": "Al-Buruj",
+      "totalAyahs": 22,
+      "ayahs": [
+        {
+          "surahNumber": 85,
+          "ayahNumber": 1,
+          "text": "نص سورة 85"
+        }
+      ]
+    },
+    {
+      "surahNumber": 86,
+      "surahNameArabic": "سورة 86",
+      "surahNameEnglish": "At-Tariq",
+      "totalAyahs": 17,
+      "ayahs": [
+        {
+          "surahNumber": 86,
+          "ayahNumber": 1,
+          "text": "نص سورة 86"
+        }
+      ]
+    },
+    {
+      "surahNumber": 87,
+      "surahNameArabic": "سورة 87",
+      "surahNameEnglish": "Al-A'la",
+      "totalAyahs": 19,
+      "ayahs": [
+        {
+          "surahNumber": 87,
+          "ayahNumber": 1,
+          "text": "نص سورة 87"
+        }
+      ]
+    },
+    {
+      "surahNumber": 88,
+      "surahNameArabic": "سورة 88",
+      "surahNameEnglish": "Al-Ghashiyah",
+      "totalAyahs": 26,
+      "ayahs": [
+        {
+          "surahNumber": 88,
+          "ayahNumber": 1,
+          "text": "نص سورة 88"
+        }
+      ]
+    },
+    {
+      "surahNumber": 89,
+      "surahNameArabic": "سورة 89",
+      "surahNameEnglish": "Al-Fajr",
+      "totalAyahs": 30,
+      "ayahs": [
+        {
+          "surahNumber": 89,
+          "ayahNumber": 1,
+          "text": "نص سورة 89"
+        }
+      ]
+    },
+    {
+      "surahNumber": 90,
+      "surahNameArabic": "سورة 90",
+      "surahNameEnglish": "Al-Balad",
+      "totalAyahs": 20,
+      "ayahs": [
+        {
+          "surahNumber": 90,
+          "ayahNumber": 1,
+          "text": "نص سورة 90"
+        }
+      ]
+    },
+    {
+      "surahNumber": 91,
+      "surahNameArabic": "سورة 91",
+      "surahNameEnglish": "Ash-Shams",
+      "totalAyahs": 15,
+      "ayahs": [
+        {
+          "surahNumber": 91,
+          "ayahNumber": 1,
+          "text": "نص سورة 91"
+        }
+      ]
+    },
+    {
+      "surahNumber": 92,
+      "surahNameArabic": "سورة 92",
+      "surahNameEnglish": "Al-Layl",
+      "totalAyahs": 21,
+      "ayahs": [
+        {
+          "surahNumber": 92,
+          "ayahNumber": 1,
+          "text": "نص سورة 92"
+        }
+      ]
+    },
+    {
+      "surahNumber": 93,
+      "surahNameArabic": "سورة 93",
+      "surahNameEnglish": "Ad-Duha",
+      "totalAyahs": 11,
+      "ayahs": [
+        {
+          "surahNumber": 93,
+          "ayahNumber": 1,
+          "text": "نص سورة 93"
+        }
+      ]
+    },
+    {
+      "surahNumber": 94,
+      "surahNameArabic": "سورة 94",
+      "surahNameEnglish": "Ash-Sharh",
+      "totalAyahs": 8,
+      "ayahs": [
+        {
+          "surahNumber": 94,
+          "ayahNumber": 1,
+          "text": "نص سورة 94"
+        }
+      ]
+    },
+    {
+      "surahNumber": 95,
+      "surahNameArabic": "سورة 95",
+      "surahNameEnglish": "At-Tin",
+      "totalAyahs": 8,
+      "ayahs": [
+        {
+          "surahNumber": 95,
+          "ayahNumber": 1,
+          "text": "نص سورة 95"
+        }
+      ]
+    },
+    {
+      "surahNumber": 96,
+      "surahNameArabic": "سورة 96",
+      "surahNameEnglish": "Al-'Alaq",
+      "totalAyahs": 19,
+      "ayahs": [
+        {
+          "surahNumber": 96,
+          "ayahNumber": 1,
+          "text": "نص سورة 96"
+        }
+      ]
+    },
+    {
+      "surahNumber": 97,
+      "surahNameArabic": "سورة 97",
+      "surahNameEnglish": "Al-Qadr",
+      "totalAyahs": 5,
+      "ayahs": [
+        {
+          "surahNumber": 97,
+          "ayahNumber": 1,
+          "text": "نص سورة 97"
+        }
+      ]
+    },
+    {
+      "surahNumber": 98,
+      "surahNameArabic": "سورة 98",
+      "surahNameEnglish": "Al-Bayyinah",
+      "totalAyahs": 8,
+      "ayahs": [
+        {
+          "surahNumber": 98,
+          "ayahNumber": 1,
+          "text": "نص سورة 98"
+        }
+      ]
+    },
+    {
+      "surahNumber": 99,
+      "surahNameArabic": "سورة 99",
+      "surahNameEnglish": "Az-Zalzalah",
+      "totalAyahs": 8,
+      "ayahs": [
+        {
+          "surahNumber": 99,
+          "ayahNumber": 1,
+          "text": "نص سورة 99"
+        }
+      ]
+    },
+    {
+      "surahNumber": 100,
+      "surahNameArabic": "سورة 100",
+      "surahNameEnglish": "Al-'Adiyat",
+      "totalAyahs": 11,
+      "ayahs": [
+        {
+          "surahNumber": 100,
+          "ayahNumber": 1,
+          "text": "نص سورة 100"
+        }
+      ]
+    },
+    {
+      "surahNumber": 101,
+      "surahNameArabic": "سورة 101",
+      "surahNameEnglish": "Al-Qari'ah",
+      "totalAyahs": 11,
+      "ayahs": [
+        {
+          "surahNumber": 101,
+          "ayahNumber": 1,
+          "text": "نص سورة 101"
+        }
+      ]
+    },
+    {
+      "surahNumber": 102,
+      "surahNameArabic": "سورة 102",
+      "surahNameEnglish": "At-Takathur",
+      "totalAyahs": 8,
+      "ayahs": [
+        {
+          "surahNumber": 102,
+          "ayahNumber": 1,
+          "text": "نص سورة 102"
+        }
+      ]
+    },
+    {
+      "surahNumber": 103,
+      "surahNameArabic": "سورة 103",
+      "surahNameEnglish": "Al-Asr",
+      "totalAyahs": 3,
+      "ayahs": [
+        {
+          "surahNumber": 103,
+          "ayahNumber": 1,
+          "text": "نص سورة 103"
+        }
+      ]
+    },
+    {
+      "surahNumber": 104,
+      "surahNameArabic": "سورة 104",
+      "surahNameEnglish": "Al-Humazah",
+      "totalAyahs": 9,
+      "ayahs": [
+        {
+          "surahNumber": 104,
+          "ayahNumber": 1,
+          "text": "نص سورة 104"
+        }
+      ]
+    },
+    {
+      "surahNumber": 105,
+      "surahNameArabic": "سورة 105",
+      "surahNameEnglish": "Al-Fil",
+      "totalAyahs": 5,
+      "ayahs": [
+        {
+          "surahNumber": 105,
+          "ayahNumber": 1,
+          "text": "نص سورة 105"
+        }
+      ]
+    },
+    {
+      "surahNumber": 106,
+      "surahNameArabic": "سورة 106",
+      "surahNameEnglish": "Quraysh",
+      "totalAyahs": 4,
+      "ayahs": [
+        {
+          "surahNumber": 106,
+          "ayahNumber": 1,
+          "text": "نص سورة 106"
+        }
+      ]
+    },
+    {
+      "surahNumber": 107,
+      "surahNameArabic": "سورة 107",
+      "surahNameEnglish": "Al-Ma'un",
+      "totalAyahs": 7,
+      "ayahs": [
+        {
+          "surahNumber": 107,
+          "ayahNumber": 1,
+          "text": "نص سورة 107"
+        }
+      ]
+    },
+    {
+      "surahNumber": 108,
+      "surahNameArabic": "الكوثر",
+      "surahNameEnglish": "Al-Kawthar",
+      "totalAyahs": 3,
+      "ayahs": [
+        {
+          "surahNumber": 108,
+          "ayahNumber": 1,
+          "text": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ"
+        },
+        {
+          "surahNumber": 108,
+          "ayahNumber": 2,
+          "text": "فَصَلِّ لِرَبِّكَ وَانْحَرْ"
+        },
+        {
+          "surahNumber": 108,
+          "ayahNumber": 3,
+          "text": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ"
+        }
+      ]
+    },
+    {
+      "surahNumber": 109,
+      "surahNameArabic": "سورة 109",
+      "surahNameEnglish": "Al-Kafirun",
+      "totalAyahs": 6,
+      "ayahs": [
+        {
+          "surahNumber": 109,
+          "ayahNumber": 1,
+          "text": "نص سورة 109"
+        }
+      ]
+    },
+    {
+      "surahNumber": 110,
+      "surahNameArabic": "سورة 110",
+      "surahNameEnglish": "An-Nasr",
+      "totalAyahs": 3,
+      "ayahs": [
+        {
+          "surahNumber": 110,
+          "ayahNumber": 1,
+          "text": "نص سورة 110"
+        }
+      ]
+    },
+    {
+      "surahNumber": 111,
+      "surahNameArabic": "سورة 111",
+      "surahNameEnglish": "Al-Masad",
+      "totalAyahs": 5,
+      "ayahs": [
+        {
+          "surahNumber": 111,
+          "ayahNumber": 1,
+          "text": "نص سورة 111"
+        }
+      ]
+    },
+    {
+      "surahNumber": 112,
+      "surahNameArabic": "الإخلاص",
+      "surahNameEnglish": "Al-Ikhlas",
+      "totalAyahs": 4,
+      "ayahs": [
+        {
+          "surahNumber": 112,
+          "ayahNumber": 1,
+          "text": "قُلْ هُوَ اللَّهُ أَحَدٌ"
+        },
+        {
+          "surahNumber": 112,
+          "ayahNumber": 2,
+          "text": "اللَّهُ الصَّمَدُ"
+        },
+        {
+          "surahNumber": 112,
+          "ayahNumber": 3,
+          "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ"
+        },
+        {
+          "surahNumber": 112,
+          "ayahNumber": 4,
+          "text": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ"
+        }
+      ]
+    },
+    {
+      "surahNumber": 113,
+      "surahNameArabic": "الفلق",
+      "surahNameEnglish": "Al-Falaq",
+      "totalAyahs": 5,
+      "ayahs": [
+        {
+          "surahNumber": 113,
+          "ayahNumber": 1,
+          "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ"
+        },
+        {
+          "surahNumber": 113,
+          "ayahNumber": 2,
+          "text": "مِنْ شَرِّ مَا خَلَقَ"
+        },
+        {
+          "surahNumber": 113,
+          "ayahNumber": 3,
+          "text": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ"
+        },
+        {
+          "surahNumber": 113,
+          "ayahNumber": 4,
+          "text": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ"
+        },
+        {
+          "surahNumber": 113,
+          "ayahNumber": 5,
+          "text": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+        }
+      ]
+    },
+    {
+      "surahNumber": 114,
+      "surahNameArabic": "الناس",
+      "surahNameEnglish": "An-Nas",
+      "totalAyahs": 6,
+      "ayahs": [
+        {
+          "surahNumber": 114,
+          "ayahNumber": 1,
+          "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ"
+        },
+        {
+          "surahNumber": 114,
+          "ayahNumber": 2,
+          "text": "مَلِكِ النَّاسِ"
+        },
+        {
+          "surahNumber": 114,
+          "ayahNumber": 3,
+          "text": "إِلَٰهِ النَّاسِ"
+        },
+        {
+          "surahNumber": 114,
+          "ayahNumber": 4,
+          "text": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ"
+        },
+        {
+          "surahNumber": 114,
+          "ayahNumber": 5,
+          "text": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ"
+        },
+        {
+          "surahNumber": 114,
+          "ayahNumber": 6,
+          "text": "مِنَ الْجِنَّةِ وَالنَّاسِ"
+        }
+      ]
+    }
+  ]
+}
